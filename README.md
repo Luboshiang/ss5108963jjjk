@@ -43,10 +43,10 @@ The LoG operator calculates the second spatial derivative of an image. This mean
 •	zero at some point in between, on the edge itself.
 ## 附錄: 各種平滑濾波器的比較,與處理lab2之3.2部分胡椒鹽雜訊有關,以及lab1 的bilinear.
 
-                    適用影像           特色
-nearest             graylevel         執行快,影像易模糊
-median filter       graylevel         影像不模糊,執行速度慢
-zoom in/out         binary            適合二值化影像的小區塊雜訊去除或填補
-MAX/min filter      graylevel         適合灰階影像的小區塊雜訊去除或填補
-peak/valley filter  graylevel         淡化灰階影像的小區塊灰階與周邊灰階的差異
+                             
+Nearest          適用影像 : graylevel       特色 : 執行快,影像易模糊
+Median filter     適用影像 : graylevel       特色 : 影像不模糊,執行速度慢
+Zoom in/out       適用影像 : binary          特色 : 適合二值化影像的小區塊雜訊去除或填補
+MAX/min filter     適用影像 : graylevel       特色 : 適合灰階影像的小區塊雜訊去除或填補
+Peak/valley filter 適用影像 : graylevel       特色 : 淡化灰階影像的小區塊灰階與周邊灰階的差異
   
